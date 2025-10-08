@@ -52,5 +52,7 @@ const library = [
 
 
 function getBookInformation(catalog) {
-
+  return catalog.map(book => book.title);
 }
+
+console.log(getBookInformation(library));
