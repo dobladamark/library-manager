@@ -68,3 +68,12 @@ function getBookSummaries(catalog) {
 console.log(getBookSummaries(library));
 
 console.log("\nList of books by Arvid Kahl:\n")
+
+console.log("\nTotal number of pages for all library books:\n");
+
+  function getTotalPages(catalog) {
+    return catalog.reduce((total, book) => total + book.pages, 0)
+
+  }
+
+  console.log(getTotalPages(library))
