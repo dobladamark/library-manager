@@ -49,3 +49,8 @@ const library = [
     pages: 500,
   },
 ];
+
+
+function getBookInformation(catalog) {
+
+}
