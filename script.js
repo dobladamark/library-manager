@@ -58,3 +58,11 @@ function getBookInformation(catalog) {
 }
 
 console.log(getBookInformation(library));
+
+console.log("\nList of book summaries:\n");
+
+function getBookSummaries(catalog) {
+  return catalog.map((book) => book.about).join("\n");
+}
+
+console.log(getBookSummaries(library));
