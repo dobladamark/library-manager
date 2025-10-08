@@ -66,3 +66,5 @@ function getBookSummaries(catalog) {
 }
 
 console.log(getBookSummaries(library));
+
+console.log("\nList of books by Arvid Kahl:\n")
