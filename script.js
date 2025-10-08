@@ -52,7 +52,8 @@ const library = [
 
 
 function getBookInformation(catalog) {
-  return catalog.map(book => book.title);
+return catalog.map(book => `${book.title} by ${book.author}`)
+}
 }
 
 console.log(getBookInformation(library));
