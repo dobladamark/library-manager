@@ -45,7 +45,7 @@ Uses reduce() to calculate the total number of pages in the entire library.
 
 Example output:
 
-2512
+-2512
 
 🧩 Concepts Used
 
