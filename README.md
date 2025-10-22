@@ -2,7 +2,7 @@
 
 This simple JavaScript program displays information about a collection of books, including their authors, summaries, and total page count.
 
-🧠 Overview
+Overview
 
 The program works with a predefined array of book objects named library.
 Each object contains:
